@@ -1,0 +1,20 @@
+POMEGRANATE_YOLOV8/
+├── data/                    # dataset (or instructions only)
+├── models/                  # custom modules (if any)
+├── runs/
+│   └── detect/
+│       └── final_768/
+│           └── weights/
+│               └── best.pt
+├── scripts/                 # optional helpers
+├── test_outputs/
+├── train.py
+├── val.py
+├── validate_baseline.py
+├── infer.py
+├── export.py
+├── test_random_batch.py
+├── test_random_dataset_image.py
+├── README.md
+├── requirements.txt
+└── .gitignore

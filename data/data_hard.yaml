@@ -1,0 +1,9 @@
+train: /Users/devlodhia/Desktop/pomegranate_yolov8/data/train_hard.txt
+val: /Users/devlodhia/Desktop/pomegranate_yolov8/data/images/val
+
+names:
+  0: bud
+  1: flower
+  2: early
+  3: mid
+  4: mature

@@ -1,0 +1,40 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ================================
+# Virtual Environments
+# ================================
+venv/
+.env/
+.venv/
+
+# ================================
+# YOLO / Training Outputs
+# ================================
+runs/
+random_batch_results/
+test_outputs/
+random_test_result*.jpg
+
+# ================================
+# Model Weights
+# ================================
+*.pt
+!runs/detect/final_768/weights/best.pt
+
+# ================================
+# Dataset (images are usually large/private)
+# ================================
+data/images/
+
+# ================================
+# OS / Editor
+# ================================
+.DS_Store
+.vscode/
+.idea/
